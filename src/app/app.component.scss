@@ -1,0 +1,56 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  font-family: 'Indie Flower', cursive;
+
+  h1 {
+    color: #923399;
+    margin: 7px;
+  }
+
+  h2 {
+    margin: 7px;
+  }
+
+  .solution {
+    font-size: 1.2rem;
+
+    .tafel {
+      color: white;
+      background-color: #033903;
+      border: 5px solid saddlebrown;
+      border-radius: 8px;
+      box-shadow: 2px 2px 7px black;
+
+      .rechenZeile {
+        display: flex;
+        font-size: 1.4rem;
+
+        div {
+          text-align: end;
+          width: 25px;
+        }
+      }
+    }
+
+  }
+
+  .antworten-btn-box {
+    display: flex;
+    flex-wrap: wrap;
+
+    .btn-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      padding: 7px 0;
+    }
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+}
